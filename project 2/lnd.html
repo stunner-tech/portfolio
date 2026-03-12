@@ -2121,12 +2121,10 @@ function setupReveal() {
   els.forEach(el => obs.observe(el));
 }
 
-// ══ NAVBAR SCROLL ══
 window.addEventListener('scroll', () => {
   document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 30);
 });
 
-// ══ INIT ══
 renderListings(sampleListings);
 </script>
 </body>
